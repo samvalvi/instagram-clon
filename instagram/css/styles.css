@@ -1,0 +1,72 @@
+body {
+    background-color: #E5E7EB;
+    box-sizing: border-box;
+    font-family: 'Proxima Nova Condensed', sans-serif;
+}
+
+#camera {
+    border: none;
+    box-shadow: none;
+}
+
+#camera:active {
+    background-color: #4B5563;
+}
+
+#create-post {
+    box-shadow: none;
+    background-color:#2563EB;
+    color: whitesmoke;
+    height: 90%;
+    outline: none;
+}
+
+#create-post:active {
+    background-color: #3B82F6;
+}
+
+.gallery_item {
+    grid-template-columns: repeat(3 ,1fr);
+    grid-auto-rows: 300px;
+}
+
+.gallery_img {
+    object-fit: cover;
+}
+
+#logo-container {
+    height: 42px;
+}
+
+#logo-text {
+    font-family: 'Billabong', sans-serif;
+    font-size:28px;
+}
+
+#map-marker {
+    border:none;
+    box-shadow: none;
+}
+#map-marker:active {
+    background-color: #4B5563;
+}
+
+#pills-home-tab {
+    background: #F3F4F6;
+}
+
+#pills-home-tab:focus {
+    background-color: #9CA3AF;
+}
+
+#pills-profile-tab {
+    background: #F3F4F6;
+}
+
+#pills-profile-tab:focus {
+    background-color: #9CA3AF;
+}
+
+#post-container {
+    height: 42px;
+}
